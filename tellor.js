@@ -1,5 +1,0 @@
-/*
-
-
-yak di si ni ya
-*/
