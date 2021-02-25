@@ -1,159 +1,176 @@
 body {
-  background-color: #edeae2
-  ;
-  margin: 0px;
-  background-image: url('../asset/egg3.png');
+  background-color: moccasin;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/23/15/easter-1297492_960_720.png");
+  margin:0px;
+
 }
+
 
 /* Styling -- Header section  */
-header {
-  width: 100%;
-  background-color: #b1d4ce;
-  color: #423e4d;
+header{
+  width:100%;
+  background-color:red;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 1.5em;
+#logo{
+  display:flex;
+  align-items:center;
+  font-size:1.5em;
 }
 
-
-
-#logo:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-nav img {
-  height: 50px;
+nav img{
+  height:50px;
 }
 
-nav h1,
-nav ul {
-  display: inline-block;
+nav h1,nav ul{
+  display:inline-block;
 }
-
-.title:hover{
-color: #834825
-;
+.fa-egg{
+  padding:0 3px;
 }
-
-.fa-egg {
-  padding: 0 3px;
-}
-.navlink {
+.navlink{
   list-style-type: none;
-  padding-right: 10px;
-  float: right;
-  height: 30px;
-  width: 80px;
-  background-color: yellow;
-  margin-right: 50px;
-  margin-top: 20px;
-  text-align: center;
-  padding-top: 8px;
-  border-radius: 10px;
-  font-size: bold;
-}
-
+  padding-right:10px;
+    float: right;
+    height: 30px;
+    width: 80px;
+    background-color: yellow;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    font-size: bold;
+  }
+  
 .navlink:hover {
-  background-color: wheat;
-}
+    background-color: wheat;
+  }
+
 
 /* Main section */
-main {
-  display: flex;
-  justify-content: center;
+main{
+  display:flex;
+  justify-content:center;
 }
 
 /* post group section */
-.postGroup {
-  width: 22%;
+.postGroup{
+  width:22%;
   height: 80vh;
-  float: left;
-  margin: 15px;
-  padding-right: 15px;
+  float:left;
+  margin:15px;
+  padding-right:15px;
 }
 
-#group1 {
-  background-color: #f0cf7e;
-  border-radius: 15px;
+#group1{
+  background-color:blue;
 }
 
-#group4 {
-  background-color: #f0cf7e;
-  border-radius: 15px;
+#group4{
+  background-color:yellow;
 }
 
-#group3 {
-  background-color: #f0cf7e;
-  border-radius: 15px;
+#group3{
+  background-color:green;
 }
 
-#group2 {
-  background-color: #f0cf7e;
-  border-radius: 15px;
+#group2{
+  background-color:orange;
 }
 
 /* posts container section */
-.postsContainer {
-  max-height: 91%;
+.postsContainer{
+  max-height:91%;
   overflow-y: auto;
 }
 
 /* post header section */
-.postGroupHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.postGroupHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
   height: 30px;
 }
 
-.postGroupHeader * {
+.postGroupHeader *{
   margin: 0 10px;
 }
 
 /* Post section */
-.post {
-  width: 95%;
-  margin: 10px;
-  background-color: #d1e3e5;
-  opacity: 100%;
-  border-radius: 10px;
+.post{
+  width:95%;
+  margin:10px;
+  background-color:lightblue;
+  opacity:100%;
 }
 
 /* post section ---option*/
-.postOption {
-  padding: 5px;
-  text-align: right;
+.postOption{
+  padding:5px;
+  text-align:right;
 }
 
-.postOption button {
-  display: inline-block;
+.postOption button{
+  display:inline-block;  
 }
 
-.deadline {
-  display: inline-block;
-  font-weight: bold;
-  color: #834825
-  ;
-  margin: 0;
+.deadline{
+  display:inline-block;
+  font-weight:bold;
+  color:red;
+  margin:0;
 }
 
 /* option logo */
-.fa-check {
-  color: green;
+.fa-check{
+  color:green;
 }
-.fa-trash {
-  color: red;
+.fa-trash{
+  color:red;
 }
 /* post section ---content*/
-.content {
-  padding: 15px;
+.content{
+  padding:0 8px;
+}
+
+
+/* section prompt add post */
+#promptAddPost{
+  width:400px;
+  top:33%;
+  padding:20px;
+  position:fixed;
+  background-color:whitesmoke;
+}
+
+#promptAddPost p, form div{
+  text-align:center;
+}
+
+.inputCategory{
+  margin:20px 10px;
+}
+
+#postContent{
+  width:80%;
+}
+
+#modal{
+  top:0;
+  left:0;
+  position:absolute;
+  height:100vh;
+  width:100vw;
+  background-color:rgba(0,0,0,0.9);
+}
+
+.hide{
+  display:none;
 }
