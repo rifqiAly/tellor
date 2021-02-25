@@ -56,7 +56,6 @@ nav h1,nav ul{
 /* Main section */
 main{
   display:flex;
-  background-color:gray;
   justify-content:center;
 }
 
