@@ -43,8 +43,8 @@ function postComplete() {
   let checkButton = event.target;
   
   if(postClicked === false) {
-     checkButton.style = "background-color: green";
-     
+     checkButton.style = "background-color: chartreuse";
+    
   } else {
       checkButton.style = "background-color: none";
   }
