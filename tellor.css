@@ -116,10 +116,24 @@ main{
   text-align:right;
 }
 
-.postOption button{
+.postOption button,{
   display:inline-block;  
 }
 
+.deadline{
+  display:inline-block;
+  font-weight:bold;
+  color:red;
+  margin:0;
+}
+
+/* option logo */
+.fa-check{
+  color:green;
+}
+.fa-trash{
+  color:red;
+}
 /* post section ---content*/
 .content{
   padding:0 8px;
