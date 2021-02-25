@@ -1,7 +1,10 @@
 body {
-  background-color: #edeae2;
-  margin: 0px;
-  background-image: url("../asset/egg3.png");
+
+  background-color: moccasin;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/23/15/easter-1297492_960_720.png");
+  margin:0px;
+
+
 }
 
 /* Styling -- Header section  */
@@ -75,12 +78,14 @@ main {
 }
 
 /* post group section */
-.postGroup {
-  width: 22%;
+
+.postGroup{
+  width:22%;
   height: 80vh;
-  float: left;
-  margin: 15px;
-  padding-right: 15px;
+  float:left;
+  margin:15px;
+  padding-right:15px;
+
 }
 
 #group1 {
@@ -158,3 +163,40 @@ main {
 .content {
   padding: 15px;
 }
+
+
+
+/* section prompt add post */
+#promptAddPost{
+  width:400px;
+  top:33%;
+  padding:20px;
+  position:fixed;
+  background-color:whitesmoke;
+}
+
+#promptAddPost p, form div{
+  text-align:center;
+}
+
+.inputCategory{
+  margin:20px 10px;
+}
+
+#postContent{
+  width:80%;
+}
+
+#modal{
+  top:0;
+  left:0;
+  position:absolute;
+  height:100vh;
+  width:100vw;
+  background-color:rgba(0,0,0,0.9);
+}
+
+.hide{
+  display:none;
+}
+

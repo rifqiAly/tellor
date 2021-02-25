@@ -19,10 +19,11 @@
 
   <header>
     <nav>
-      <div class="logo">
-        <img class="flip" id="logo" src="./asset/egg4.png">
-        <h1 class="title" id="tellor">Tellor</h1>
-        <img src="https://i.stack.imgur.com/PzC1L.gif">
+
+      <div id="logo">      
+        <img src="../asset/logo.png">
+        <p>Tellor</p>
+
       </div>
 
       <h1 class="title" id="titleProject">Judul Project</h1>
@@ -41,7 +42,7 @@
     <div id="group1" class="postGroup">
       <div class="postGroupHeader">
         <p id="group1Name" class="groupName">Group 1</p>
-        <button><i class="fas fa-plus"></i></button>
+        <button class = "addNewPostButton"><i class="fas fa-plus"></i></button>
       </div>
 
       <div class=postsContainer>
@@ -107,7 +108,7 @@
 
       <div class="postGroupHeader">
         <p id="group2Name" class="groupName">Group 1</p>
-        <button><i class="fas fa-plus"></i></button>
+        <button class = "addNewPostButton"><i class="fas fa-plus"></i></button>
       </div>
 
       <div class=postsContainer>
@@ -221,7 +222,7 @@
 
       <div class="postGroupHeader">
         <p id="group3Name" class="groupName">Group 1</p>
-        <button><i class="fas fa-plus"></i></button>
+        <button class = "addNewPostButton"><i class="fas fa-plus"></i></button>
       </div>
 
       <div class=postsContainer>
@@ -238,7 +239,7 @@
     <div id="group4" class="postGroup">
       <div class="postGroupHeader">
         <p id="group4Name" class="groupName">Group 1</p>
-        <button><i class="fas fa-plus"></i></button>
+        <button class = "addNewPostButton"><i class="fas fa-plus"></i></button>
       </div>
 
       <div class=postsContainer>
@@ -278,7 +279,35 @@
       </div>
     </div>
 
-  </main>
+    <div id="modal" class="hide"></div>
+    <div id="promptAddPost" class="hide">
+
+      <p>Tambah post ke [group1]:</p>
+      <form>
+
+        <div class="inputCategory">
+          <label for="postContent">Konten:</label>
+          <input id="postContent" type="text">
+        </div>
+
+        <div class="inputCategory">
+          <label for="postDeadline">Deadline:</label>
+          <input id="postDeadline" type="date">
+        </div>
+
+        <div class="inputButton">
+          <input id="postNewPostButton" type="submit" value="Tambahkan">
+          <button id="cancelButton">Batal</button>
+        </div>
+
+      </form>
+    </div>
+
+
+  </main> 
+
+  <script src="../backend/tellor.js"></script>
+
 </body>
 
 
