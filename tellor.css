@@ -20,6 +20,7 @@ nav{
 #logo{
   display:flex;
   align-items:center;
+  font-size:1.5em;
 }
 
 nav img{
@@ -37,9 +38,9 @@ nav ul{
 
 /* Main section */
 main{
-  position:flex;
+  display:flex;
   background-color:gray;
-  justify-self:center;
+  justify-content:center;
 }
 
 main div{
@@ -48,6 +49,11 @@ main div{
   float:left;
   margin:15px;
   overflow-y:auto;
+}
+
+/* post headbar option */
+.postOption button{
+  float:left;
 }
 
 .post{
