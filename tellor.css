@@ -30,11 +30,28 @@ nav img{
 nav h1,nav ul{
   display:inline-block;
 }
-
-nav ul{
+.fa-egg{
+  padding:0 3px;
+}
+.navlink{
   list-style-type: none;
   padding-right:10px;
-}
+    float: right;
+    height: 30px;
+    width: 80px;
+    background-color: yellow;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    font-size: bold;
+  }
+  
+.navlink:hover {
+    background-color: wheat;
+  }
+
 
 /* Main section */
 main{
@@ -43,24 +60,13 @@ main{
   justify-content:center;
 }
 
-main div{
-  width:20%;
+/* post group section */
+.postGroup{
+  width:22%;
   height: 500px;
   float:left;
   margin:15px;
-  overflow-y:auto;
-}
-
-/* post headbar option */
-.postOption button{
-  float:left;
-}
-
-.post{
-  width:90%;
-  background-color:lightblue;
-  height:20%;
-  opacity:100%;
+  padding-right:15px;
 }
 
 #group1{
@@ -78,5 +84,48 @@ main div{
 #group2{
   background-color:orange;
 }
+
+/* posts container section */
+.postsContainer{
+  max-height:91%;
+  overflow-y: auto;
+}
+
+/* post header section */
+.postGroupHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height: 30px;
+}
+
+.postGroupHeader *{
+  margin: 0 10px;
+}
+
+/* Post section */
+.post{
+  width:95%;
+  margin:10px;
+  background-color:lightblue;
+  opacity:100%;
+}
+
+/* post section ---option*/
+.postOption{
+  padding:5px;
+  text-align:right;
+}
+
+.postOption button{
+  display:inline-block;  
+}
+
+/* post section ---content*/
+.content{
+  padding:0 8px;
+}
+
+
 
 
