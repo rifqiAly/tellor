@@ -2,6 +2,7 @@ body {
   background-color: moccasin;
   background-image: url("https://cdn.pixabay.com/photo/2016/03/31/23/15/easter-1297492_960_720.png");
   margin: 0%;
+  padding: 0%;
 }
 
 /* header {
@@ -41,8 +42,26 @@ h1 {
   margin-left: 20px;
 }
 
-.navbar span {
+.navbar #about {
   float: right;
+  height: 30px;
+  width: 80px;
+  background-color: yellow;
+  margin-right: 50px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 10px;
+  font-size: bold;
+}
+
+.navbar #about:hover {
+  background-color: wheat;
+}
+
+.navbar #a {
+  text-align: center;
+  margin-top: 10px;
 }
 
 main {
