@@ -1,3 +1,82 @@
 body {
   background-color: moccasin;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/23/15/easter-1297492_960_720.png");
+  margin:0px;
 }
+
+
+/* Styling -- Header section  */
+header{
+  width:100%;
+  background-color:red;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#logo{
+  display:flex;
+  align-items:center;
+  font-size:1.5em;
+}
+
+nav img{
+  height:50px;
+}
+
+nav h1,nav ul{
+  display:inline-block;
+}
+
+nav ul{
+  list-style-type: none;
+  padding-right:10px;
+}
+
+/* Main section */
+main{
+  display:flex;
+  background-color:gray;
+  justify-content:center;
+}
+
+main div{
+  width:20%;
+  height: 500px;
+  float:left;
+  margin:15px;
+  overflow-y:auto;
+}
+
+/* post headbar option */
+.postOption button{
+  float:left;
+}
+
+.post{
+  width:90%;
+  background-color:lightblue;
+  height:20%;
+  opacity:100%;
+}
+
+#group1{
+  background-color:blue;
+}
+
+#group4{
+  background-color:yellow;
+}
+
+#group3{
+  background-color:green;
+}
+
+#group2{
+  background-color:orange;
+}
+
+
