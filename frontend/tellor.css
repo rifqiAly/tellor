@@ -1,8 +1,7 @@
 body {
-  background-color: #edeae2
-  ;
+  background-color: #edeae2;
   margin: 0px;
-  background-image: url('../asset/egg3.png');
+  background-image: url("../asset/egg3.png");
 }
 
 /* Styling -- Header section  */
@@ -17,19 +16,19 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+#tellor{
+  font-family: 'Pacifico', cursive;
+}
 
+#titleProject{
+  font-family: 'Fredoka One', cursive;
+}
 .logo {
   display: flex;
   align-items: center;
   font-size: 1.5em;
 }
 
-
-
-#logo:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
 nav img {
   height: 50px;
 }
@@ -39,9 +38,12 @@ nav ul {
   display: inline-block;
 }
 
-.title:hover{
-color: #834825
-;
+.flip:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.title:hover {
+  color: #834825;
 }
 
 .fa-egg {
@@ -141,8 +143,7 @@ main {
 .deadline {
   display: inline-block;
   font-weight: bold;
-  color: #834825
-  ;
+  color: #834825;
   margin: 0;
 }
 
