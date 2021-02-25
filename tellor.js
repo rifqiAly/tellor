@@ -1,5 +1,12 @@
-/*
 
+let bodyTag = document.querySelector("body");
+let divModal;
 
-yak di si ni ya
-*/
+function clickAbout() {
+    // alert("BANGKEEE, GW DI KLIKKKKK");
+    
+}
+
+function clickBack() {
+    
+}

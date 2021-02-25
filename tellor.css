@@ -116,7 +116,7 @@ main{
   text-align:right;
 }
 
-.postOption button,{
+.postOption button {
   display:inline-block;  
 }
 
@@ -138,6 +138,8 @@ main{
 .content{
   padding:0 8px;
 }
+
+
 
 
 
