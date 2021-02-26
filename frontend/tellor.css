@@ -251,7 +251,7 @@ form div {
 }
 #group1Name:hover{
   color: #ffffff;
-  font-size: xx-large;
+  font-size: large;
   z-index: 1;
 }
 
@@ -263,7 +263,7 @@ form div {
 }
 #group2Name:hover{
   color: #ffffff;
-  font-size: xx-large;
+  font-size: large;
   z-index: 1;
 }
 #group3Name{
@@ -274,7 +274,7 @@ form div {
 }
 #group3Name:hover{
   color: #ffffff;
-  font-size: xx-large;
+  font-size: large;
   z-index: 1;
 }
 #group4Name{
@@ -285,16 +285,16 @@ form div {
 }
 #group4Name:hover{
   color: #ffffff;
-  font-size: xx-large;
+  font-size: large;
   z-index: 1;
 }
 .postGroupHeader img{
-  width: 100px;
+  width: 50px;
   z-index: 1;
 }
 
 .postGroupHeader img:hover{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width: 120px;
+  width: 70px;
 }
