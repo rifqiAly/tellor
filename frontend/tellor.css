@@ -121,7 +121,10 @@ main {
 .postGroupHeader * {
   margin: 0 10px;
 }
-
+.addNewPostButton{
+  font-weight:bold;
+  font-size:0.95em;
+}
 /* Post section */
 .post {
   width: 95%;
