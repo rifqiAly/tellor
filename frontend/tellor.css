@@ -1,6 +1,6 @@
 body {
   background-color: #edeae2;
-  margin: 0px;
+  margin: auto;
   background-image: url("../asset/egg3.png");
 }
 
@@ -17,6 +17,8 @@ nav {
   align-items: center;
 }
 
+
+
 #logo {
   display: flex;
   align-items: center;
@@ -28,13 +30,12 @@ nav {
   transform: scaleX(-1);
 }
 .title:hover {
-  color: #834825;
+  color: #f0cf7e;
 }
 
 #titleProject {
   font-family: "Fredoka One", cursive;
 }
-
 
 nav img {
   height: 120px;
@@ -54,7 +55,7 @@ nav ul {
   float: right;
   height: 30px;
   width: 80px;
-  background-color:#f0cf7e;
+  background-color: #f0cf7e;
   margin-right: 50px;
   margin-top: 20px;
   text-align: center;
@@ -82,6 +83,7 @@ main {
   float: left;
   margin: 15px;
   padding-right: 15px;
+  opacity: 95%;
 }
 
 #group1 {
@@ -129,6 +131,9 @@ main {
   background-color: #d1e3e5;
   padding: 0.3vw;
   border-radius: 10px;
+  font-family: "Balsamiq Sans", cursive;
+  opacity: 100%;
+  z-index: 0.8;
 }
 
 /* post section ---option*/
@@ -145,7 +150,9 @@ main {
   display: inline-block;
   font-weight: bold;
   color: #834825;
-  margin: 0;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
 }
 
 /* option logo */
@@ -193,4 +200,92 @@ form div {
 
 .hide {
   display: none;
+}
+
+.addNewPostButton {
+  background-color: #4b4142;
+  color: aliceblue;
+  padding: 2px;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.check-card {
+  background-color: #4b4142;
+  color: aliceblue;
+  padding: 8px;
+  text-align: center;
+  border-radius: 45%;
+}
+
+.edit-card {
+  background-color: #4b4142;
+  color: aliceblue;
+  padding: 8px 8px;
+  text-align: center;
+  border-radius: 45%;
+}
+
+.delete-card {
+  background-color: #fa4c24;
+  color: aliceblue;
+  padding: 8px;
+  text-align: center;
+  border-radius: 45%;
+}
+
+#group1Name{
+  font-size: medium;
+  font-family: "Pacifico", cursive;
+  margin: auto;
+  padding: auto;
+}
+#group1Name:hover{
+  color: #ffffff;
+  font-size: xx-large;
+  z-index: 1;
+}
+
+#group2Name{
+  font-size: medium;
+  font-family: "Pacifico", cursive;
+  margin: auto;
+  padding: auto;
+}
+#group2Name:hover{
+  color: #ffffff;
+  font-size: xx-large;
+  z-index: 1;
+}
+#group3Name{
+  font-size: medium;
+  font-family: "Pacifico", cursive;
+  margin: auto;
+  padding: auto;
+}
+#group3Name:hover{
+  color: #ffffff;
+  font-size: xx-large;
+  z-index: 1;
+}
+#group4Name{
+  font-size: medium;
+  font-family: "Pacifico", cursive;
+  margin: auto;
+  padding: auto;
+}
+#group4Name:hover{
+  color: #ffffff;
+  font-size: xx-large;
+  z-index: 1;
+}
+.postGroupHeader img{
+  width: 100px;
+  z-index: 1;
+}
+
+.postGroupHeader img:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 120px;
 }
