@@ -132,6 +132,8 @@ function showPrompt(event){
   document.getElementById("modal").classList.remove("hide");
   document.getElementById("promptAddPost").classList.remove("hide")
 
+
+
   currentId = event.target.parentElement.parentElement.id;
   console.log(currentId)
 }
