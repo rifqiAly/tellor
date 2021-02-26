@@ -44,6 +44,7 @@ nav img {
 nav h1,
 nav ul {
   display: inline-block;
+  margin: auto;
 }
 
 .fa-egg {
