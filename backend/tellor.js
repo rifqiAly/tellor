@@ -159,7 +159,9 @@ function addNewPost(event){
   render(currentId)
   // console.log(database)
 
-}
+
+// }
+
 
 function deletePost(event) {
   event.preventDefault()
@@ -180,6 +182,7 @@ function postComplete(event) {
     post.style.backgroundColor = "green"
   }
 
+
   event.target.remove()
    
 
@@ -198,6 +201,7 @@ function movePost(event){
 
   deletePost(event)
   render(newGroup)
+
 
 }
 
@@ -241,4 +245,6 @@ function changeTitle(){
   let newTitle = prompt("Insert Project's Name:","New Project")
   title.textContent = newTitle
 
+
 }
+
