@@ -135,6 +135,7 @@ main {
   font-family: "Balsamiq Sans", cursive;
   opacity: 100%;
   z-index: 0.8;
+  transition: background-color 0.75s;
 }
 
 /* post section ---option*/
@@ -206,13 +207,21 @@ form div {
 .addNewPostButton {
   background-color: #4b4142;
   color: aliceblue;
-  padding: 2px;
+  padding: 2px 10px;
   text-align: center;
   border-radius: 20%;
 }
 
 .check-card {
   background-color: #4b4142;
+  color: aliceblue;
+  padding: 8px;
+  text-align: center;
+  border-radius: 45%;
+}
+
+.move-card {
+  background-color: #fa4c24;
   color: aliceblue;
   padding: 8px;
   text-align: center;
