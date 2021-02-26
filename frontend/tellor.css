@@ -17,8 +17,6 @@ nav {
   align-items: center;
 }
 
-
-
 #logo {
   display: flex;
   align-items: center;
@@ -46,13 +44,17 @@ nav ul {
   display: inline-block;
   margin: auto;
 }
-
+nav ul {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
 .fa-egg {
   padding: 3px;
 }
 .navlink {
   list-style-type: none;
-  padding-right: 10px;
+
   float: right;
   height: 30px;
   width: 80px;
@@ -244,57 +246,57 @@ form div {
   border-radius: 45%;
 }
 
-#group1Name{
+#group1Name {
   font-size: medium;
   font-family: "Pacifico", cursive;
   margin: auto;
   padding: auto;
 }
-#group1Name:hover{
+#group1Name:hover {
   color: #ffffff;
   font-size: large;
   z-index: 1;
 }
 
-#group2Name{
+#group2Name {
   font-size: medium;
   font-family: "Pacifico", cursive;
   margin: auto;
   padding: auto;
 }
-#group2Name:hover{
+#group2Name:hover {
   color: #ffffff;
   font-size: large;
   z-index: 1;
 }
-#group3Name{
+#group3Name {
   font-size: medium;
   font-family: "Pacifico", cursive;
   margin: auto;
   padding: auto;
 }
-#group3Name:hover{
+#group3Name:hover {
   color: #ffffff;
   font-size: large;
   z-index: 1;
 }
-#group4Name{
+#group4Name {
   font-size: medium;
   font-family: "Pacifico", cursive;
   margin: auto;
   padding: auto;
 }
-#group4Name:hover{
+#group4Name:hover {
   color: #ffffff;
   font-size: large;
   z-index: 1;
 }
-.postGroupHeader img{
+.postGroupHeader img {
   width: 50px;
   z-index: 1;
 }
 
-.postGroupHeader img:hover{
+.postGroupHeader img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   width: 70px;
