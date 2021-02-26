@@ -152,8 +152,10 @@ function addNewPost(event) {
     render(currentId);
   }
 
+
   // console.log(database)
 }
+
 
 function deletePost(event) {
   event.preventDefault();
@@ -175,7 +177,9 @@ function postComplete(event) {
     post.style.backgroundColor = "green";
   }
 
+
   event.target.remove();
+
 }
 
 function movePost(event) {
@@ -190,8 +194,10 @@ function movePost(event) {
     if (database[groupPost][n].index === index)
       database[newGroup].push(database[groupPost][n]);
 
+
   deletePost(event);
   render(newGroup);
+
 }
 
 function editPost(event) {
@@ -232,8 +238,11 @@ function editPost(event) {
 function changeTitle() {
   let title = document.querySelector("#titleProject");
 
+
   let newTitle = prompt("Insert Project's Name:", "New Project");
   if (newTitle) {
     title.textContent = newTitle;
   }
+
 }
+
